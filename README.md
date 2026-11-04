@@ -8,11 +8,11 @@
 
 ## 🛠️ Tech Stack
 
-**Languages & Data:** Python, SQL, Pandas, NumPy, Matplotlib, Seaborn
-**ML / DL:** PyTorch, scikit-learn, XGBoost, LightGBM, Hugging Face Transformers, YOLO (Ultralytics)
-**NLP & RAG:** LSTM / BiLSTM / CRF, Transformers, ChromaDB
-**Deployment:** FastAPI, Gradio, Streamlit
-**Data Analytics:** SQL Server, Power BI, Selenium
+- **Languages & Data:** Python, SQL, Pandas, NumPy, Matplotlib, Seaborn
+- **ML / DL:** PyTorch, scikit-learn, XGBoost, LightGBM, Hugging Face Transformers, YOLO (Ultralytics)
+- **NLP & RAG:** LSTM / BiLSTM / CRF, Transformers, ChromaDB
+- **Deployment:** FastAPI, Gradio, Streamlit
+- **Data Analytics:** SQL Server, Power BI, Selenium
 
 ---
 
@@ -24,7 +24,7 @@
 | [**AgriAdvisor**](https://github.com/rAmeZ-m/AgriAdvisor) | Crop recommendation (95.2% accuracy), yield prediction (R² = 0.97) and profit prediction (R² = 0.93) for Egyptian agriculture, served through a REST API and a 5-page web interface. | XGBoost, Random Forest, FastAPI, HTML/CSS/JS |
 | [**object-detection-Road-Damage**](https://github.com/rAmeZ-m/object-detection-Road-Damage) | Road damage detection comparing YOLOv8n, YOLOv10n and YOLO11n, with hyperparameter tuning and a Gradio demo. | YOLO, Gradio |
 | [**oral-classifier**](https://github.com/rAmeZ-m/oral-classifier) | Oral disease image classification: custom ResCNN vs ResNet18 vs EfficientNet-B0 (85.7% test accuracy), with Grad-CAM explainability and a Streamlit demo. | PyTorch, Grad-CAM, Streamlit |
-| [**named_entity_recognition-system**](https://github.com/rAmeZ-m/named_entity_recognition-system) | Named Entity Recognition: LSTM, BiLSTM and BiLSTM+CRF built from scratch vs a fine-tuned Hugging Face transformer, evaluated with seqeval and deployed with Gradio. | PyTorch, Transformers, Gradio |
+| [**named_entity_recognition-system**](https://github.com/rAmeZ-m/named_entity_recognition-system) | Named Entity Recognition on CoNLL-2003: LSTM, BiLSTM and BiLSTM+CRF built from scratch in PyTorch vs a fine-tuned DistilBERT (F1 0.891), evaluated with seqeval and deployed with a Gradio app. | PyTorch, Transformers, Gradio |
 | [**Airbnb_Analytics**](https://github.com/rAmeZ-m/Airbnb_Analytics) | Airbnb market analysis across 10 European cities: web scraping, SQL Server data warehouse and Power BI dashboards. | Selenium, SQL Server, Power BI |
 
 ---
